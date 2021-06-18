@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Entry point
@@ -8,13 +10,9 @@
 
 int main(void)
 {
-char l;
-for (l = 'a'; l <= 'z'; l++)
-
-if (l == 'e' || l == 'q')
-continue;
-putchar(c);
-
+int i;
+for (i = '0'; i <= '9'; i++)
+putchar(i);
 putchar('\n');
 
 return (0);

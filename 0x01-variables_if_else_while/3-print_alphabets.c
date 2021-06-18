@@ -14,11 +14,11 @@ for (l = 'a'; l <= 'z'; l++)
 {
 putchar(l);
 }
-for(u = 'A'; u <= 'Z'; u++)
+for (u = 'A'; u <= 'Z'; u++)
 {
 putchar(u);
 }
 putchar(10);
 
-return(0);
+return (0);
 }

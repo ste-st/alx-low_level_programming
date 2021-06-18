@@ -3,18 +3,19 @@
 /**
  * main - Entry point
  *
- * Return: returns always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-
 char l;
 for (l = 'a'; l <= 'z'; l++)
-{
-putchat(l);
-}
-putchar(10);
+
+if(l == 'e' || l == 'q')
+continue;
+putchat(c);
+
+putchar('\n');
 
 return (0);
 }

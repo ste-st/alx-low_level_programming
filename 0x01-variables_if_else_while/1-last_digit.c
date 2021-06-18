@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the last digit
- *Return: The funcont returns 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)

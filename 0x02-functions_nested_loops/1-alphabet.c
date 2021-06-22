@@ -3,7 +3,7 @@
 /**
  * print_alphabet - prints alphabet in lowercase.
  *
- * Return: Always 0.
+ * Return: Void.
  */
 
 void print_alphabet(void)
@@ -16,5 +16,5 @@ for (al = 'a'; al <= 'z'; al++)
 
 _putchar(al);
 }
-return (0);
+_putchar('\n');
 }

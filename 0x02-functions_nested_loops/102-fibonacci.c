@@ -13,11 +13,11 @@ for (c = 1; c <= 50; ++c)
 {
 if (a != 20365011074)
 {
-printf("%d, ", a);
+printf("%ld, ", a);
 }
 else
 {
-printf("%d, ", a);
+printf("%ld, ", a);
 }
 d = a + b;
 a = b;

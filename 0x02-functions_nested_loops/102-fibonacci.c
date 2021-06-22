@@ -17,7 +17,7 @@ printf("%ld, ", a);
 }
 else
 {
-printf("%ld, ", a);
+printf("%ld\n", a);
 }
 d = a + b;
 a = b;

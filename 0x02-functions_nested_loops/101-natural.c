@@ -12,7 +12,7 @@ int n, d = 0;
 for (n = 0; n < 1024; n++)
 {
 if ((n % 3) == 0 || (n % 5) == 0)
-d = n++;
+d += n;
 }
 printf("%d\n", d);
 return (0);

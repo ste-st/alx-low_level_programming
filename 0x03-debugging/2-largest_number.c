@@ -2,26 +2,30 @@
 
 /**
  * largest_number - returns the lasgest of 3 numbers
- *@n: int
- *@m: int
  *@a: int
+ *@b: int
+ *@c: int
  * Return: largest.
  */
 
-int largest_number(int n, int m, int a)
+int largest_number(int a, int b, int c)
 {
-int l;
+int largest;
 
-if (n >= m && n >= a)
+if (a > b && a > c)
 {
-l = a;
+largest = a;
 }
-else if (m >= n && n >= a)
+else if (b > a && b > c)
 {
-l = b;
+largest = b;
+else if (a == b)
+{
+largest = a;
+}
 else
 {
-l = a;
+largest = c;
 }
-return (l);
+return (largest);
 }

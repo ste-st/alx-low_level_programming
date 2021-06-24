@@ -7,7 +7,7 @@
  * Return: 1 if c is uppercase and 0 if not.
  */
 
-int_ isuper(int c)
+int _isupper(int c)
 {
 if (c >= 'A' && c <= 'Z')
 return (1);

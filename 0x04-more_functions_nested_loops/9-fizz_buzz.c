@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "holberton.h"
 /**
  * main - prints the numbers from 1 to 100
  * followed by a new line.
@@ -12,15 +12,15 @@ int n;
 
 for (n = 1; n <= 100; n++)
 {
-if (n % 5 == 0 && n % 3 == 0)
+if (n % 15 == 0)
 printf("%s", "FizzBuzz")
 else if (n % 3 == 0)
-printf("%s", "Fizz");
+printf("Fizz");
 else if (n % 5 == 0)
-printf("%s", "Buzz");
+printf("Buzz");
 else
-printf("%d", n);
-if (n != 100)
+printf("%i", n);
+if (n < 100)
 printf(" ");
 }
 printf("\n");

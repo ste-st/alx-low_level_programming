@@ -15,8 +15,8 @@ for (n = 1; n <= 10; n++)
 for (m = 0; m <= 14; m++)
 {
 int a, b;
-a = m / 10
-b = m % 10
+a = m / 10;
+b = m % 10;
 if (a != 0)
 _putchar(a + '0');
 _putchar(b + '0');

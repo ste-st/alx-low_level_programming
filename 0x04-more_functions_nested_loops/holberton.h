@@ -4,7 +4,7 @@ int main(void);
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int, int);
-void print_number(int c);
+void print_numbers(int c);
 void print_most_numbers(void);
 void more_numbers(void);
 void print_line(int n);

@@ -1,1 +1,0 @@
-### Arrays Pointers and strings project

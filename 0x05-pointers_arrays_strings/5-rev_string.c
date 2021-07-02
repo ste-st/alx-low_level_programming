@@ -22,7 +22,7 @@ for (i = 0; i < len / 2; i++)
 {
 p = s[i];
 s[i] = s[len1];
-s[len1] = p;
+s[len1--] = p;
 
 }
 }

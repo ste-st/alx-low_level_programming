@@ -11,7 +11,7 @@ char *rot13(char *s)
 char *t = s;
 char *in = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
-char *out = "NOPQRSTUVWXYZABCDEFGHIKLMnopqrstuwxyzabcdefghijklm";
+char *out = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuwxyzabcdefghijklm";
 int x;
 
 while (*t)
